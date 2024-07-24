@@ -1,12 +1,12 @@
 "use client";
 
 import Head from 'next/head';
-import Navbar from '../src/components/navbar';
-import SettingsToggle from '../src/components/settings_carousel';
+import Navbar from '../navbar';
+import SettingsToggle from '../settings_carousel';
 
 const Home: React.FC = () => {
   return (
-    <div className="relative min-h-screen flex flex-col bg-black bg-[url('/path_to_your_image.jpg')] bg-cover bg-center">
+    <div className="relative min-h-screen flex flex-col bg-[url('/path_to_your_image.jpg')] bg-cover bg-center">
       <Head>
         <title>Settings Page</title>
         <meta name="description" content="Settings page for the application" />
