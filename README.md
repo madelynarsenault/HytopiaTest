@@ -21,6 +21,5 @@ And voilà! Settings page should be up and running.
 Email: madelyn.arsenault@gmail.com
 
 
-<img width="1248" alt="Screenshot 2024-07-25 at 2 07 36 PM" src="https://github.com/user-attachments/assets/053d8ac7-4e49-4ef3-9ead-322b5ad56b6a">
 
-
+<img width="1250" alt="Screenshot 2024-07-25 at 2 09 44 PM" src="https://github.com/user-attachments/assets/def64968-62d2-4e61-9fb0-837b55f4fe67">
