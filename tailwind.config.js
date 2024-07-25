@@ -13,19 +13,55 @@ module.exports = {
       },
       colors: {
         primary: '#101010',
-        secondary: '#F1F1F11A',
-        pfpCustom: '#F1F1F133',
-        customPurple: '#6b46c1',
+        secondary: 'rgba(241, 241, 241, 0.1)',
         customGray: '#a0aec0',
-        customRed: '#e53e3e',
         customWhite: '#F1F1F1',
-        transparentDark: 'rgba(13, 13, 13, 0)',
+        darkGray: '#575756',
+        footerDark: '#151616',
         dark: '#0D0D0D',
-      },
-      backgroundImage: {
-        'linear-dark': 'linear-gradient(180deg, rgba(13, 13, 13, 0) 0%, #0D0D0D 100%)',
+        toggleDark: '#0E0E0E',
       },
     },
   },
-  plugins: [],
+  plugins: [
+      //This is for the custom slider for Mipmap lvl and Render Distance. Tailwind does not offer lots of customization on sliders
+    // so I resorted to basic CSS or i could have used an external package.
+    function ({ addUtilities }) {
+      addUtilities({
+        '.slider': {
+          '-webkit-appearance': 'none',
+          '-moz-appearance': 'none',
+          'appearance': 'none',
+          'width': '100%',
+          'background': 'transparent',
+          'outline': 'none',
+        },
+        '.slider::-webkit-slider-runnable-track': {
+          'width': '100%',
+          'height': '50px',
+          'background': 'linear-gradient(to right, rgba(241, 241, 241, 0.2) var(--slider-progress, 0%), #0D0D0D var(--slider-progress, 0%))',
+          'border-radius': '1rem',
+        },
+        '.slider::-webkit-slider-thumb': {
+          '-webkit-appearance': 'none',
+          'width': '22.55px',
+          'height': '50px',
+          'background-color': '#575756',
+          'border': '1px solid rgba(241, 241, 241, 0.5)',
+          'border-radius': '100px',
+          'cursor': 'pointer',
+          'backdrop-filter': 'blur(5px)',
+        },
+        '.slider::-moz-range-thumb': {
+          'width': '22.55px',
+          'height': '50px',
+          'background-color': '#575756',
+          'border': '1px solid rgba(241, 241, 241, 0.5)',
+          'border-radius': '100px',
+          'cursor': 'pointer',
+          'backdrop-filter': 'blur(5px)',
+        },
+      }, ['responsive', 'hover']);
+    },
+  ],
 }
