@@ -22,4 +22,5 @@ Email: madelyn.arsenault@gmail.com
 
 
 
-<img width="1249" alt="Screenshot 2024-07-25 at 1 24 13 PM" src="https://github.com/user-attachments/assets/d998c78a-6663-47ca-ace4-90d0e28f02ec">
+
+<img width="1248" alt="Screenshot 2024-07-25 at 2 05 13 PM" src="https://github.com/user-attachments/assets/0314fe3e-e32a-451b-8296-3d58b4fbc670">
