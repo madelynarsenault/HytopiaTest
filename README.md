@@ -3,11 +3,12 @@
 Hello Hytopia team! Here is my little mockup of the conceptual settings page.
 
 🌟 Highlighted features
-Customizable Sliders: Adjust settings such as Render Distance and Mipmap Levels with custom sliders, providing precise control over your preferences.
+
+-Customizable Sliders: Adjust settings such as Render Distance and Mipmap Levels with custom sliders, providing precise control over your preferences.
 
 While Tailwind CSS is fantastic for styling with its utility-first approach, it doesn't offer complete customization for native slider elements. So, I opted for using standard CSS over an external package!
 
-Responsive Design: Although the primary focus was on creating an experience for PC screens [specifically the size from figma which is 1562x996], I took the initiative to add some responsive elements. While it may not be fully optimized for mobile devices, the design adapts reasonably well across different screen sizes. The core idea was to cater to a PC audience, so mobile responsiveness wasn't a primary goal.
+-Responsive Design: Although the primary focus was on creating an experience for PC screens [specifically the size from figma which is 1562x996], I took the initiative to add some responsive elements. While it may not be fully optimized for mobile devices, the design adapts reasonably well across different screen sizes. The core idea was to cater to a PC audience, so mobile responsiveness wasn't a primary goal.
 
 Clone the repo:
 git clone https://github.com/madelynarsenault/HytopiaTest.git
