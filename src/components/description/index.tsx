@@ -13,14 +13,14 @@ const SettingDescription: React.FC<SettingDescriptionProps> = ({ title, descript
         <div className="text-customWhite leading-loose text-xl font-inter font-semibold">
           {title}
         </div>
-        <div className="text-customWhite text-opacity-50 text-sm font-inter font-normal mt-4">
+        <div className="text-customWhite text-opacity-70 text-sm font-inter font-normal mt-4">
           {description}
         </div>
-        <div className="text-customWhite text-opacity-50 text-sm font-inter font-normal mt-6">
+        <div className="text-customWhite text-opacity-70 text-sm font-inter font-normal mt-6">
           <p>The other options are:</p>
         </div>
-        <div className="text-customWhite text-opacity-50 font-inter text-sm font-normal mt-2">
-          <ul className="list-disc list-inside space-y-1">
+        <div className="text-customWhite text-opacity-70 font-inter text-sm font-normal mt-2">
+          <ul className="list-disc list-inside space-y-1.5">
             {options.map((option, index) => (
               <li key={index}>{option}</li>
             ))}
